@@ -1,4 +1,33 @@
+<style>
+    .Fold{
+        position:absolute;
+        top:50%;
+        left:50%;
+        translate:transform(-50%, -50%);
+        height:200px;
+        width:200px;
+        color:green;
+    }
+    .Fold:after{
+        position:absolute;
+        content:'';
+        right:0;
+        left:0;
+    }
+    .Fold:hover:after{
+        transition-duration:1s;
+        border-bottom:50px solid blue;
+        border-right:50px solid blue;
+    }
+    
+    </style>
+    
 <body>
     This is for accessing the personal stuff.
-    Making changes from phone. <h1>trying out options.</h1>
+    Making changes from phone. <h1>Just need one shot!</h1>
+    <center>
+        <div class='Fold'>
+            Bhawesh Verma
+        </div>
+    </center>
 </body>
